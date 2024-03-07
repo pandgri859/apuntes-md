@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Apuntes Checkstyle Tema 4</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">Apuntes Checkstyle Tema 4</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#que-es" class="nav-link">¿Qué es?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#cual-es-su-funcion" class="nav-link">¿Cuál es su función?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#cuales-son-las-razones-para-emplearlo" class="nav-link">¿Cuáles son las razones para emplearlo?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><img alt="img-checkstyle" src="https://raw.githubusercontent.com/checkstyle/resources/master/img/checkstyle-logos/checkstyle-logo-260x99.png" /></p>
+<h2 id="que-es">¿Qué es?</h2>
+<p>La extensión Eclipse Checkstyle (también identificada como eclipse-cs) incorpora el analizador de código fuente estático Checkstyle en el Entorno de Desarrollo Integrado (<strong>IDE</strong>) de Eclipse.</p>
+<p><img alt="img-eclipse" src="https://www.linuxadictos.com/wp-content/uploads/Eclipse-logo.png" /></p>
+<p><strong>Checkstyle</strong> constituye una herramienta de desarrollo de código abierto diseñada para asegurar que su código Java cumpla con un conjunto predefinido de normas de codificación. Este programa realiza dicha verificación mediante la inspección del código fuente Java, señalando aquellos elementos que se apartan de un conjunto definido de reglas de codificación.</p>
+<p><img alt="img-java" src="https://media.licdn.com/dms/image/C5612AQHwPNaUiTYmgQ/article-cover_image-shrink_600_2000/0/1520100917471?e=2147483647&amp;v=beta&amp;t=13_Xj_5k11jMNe0LszJTm3YbtRzqHYN9x4hXOEPxhWo" /></p>
+<h2 id="cual-es-su-funcion">¿Cuál es su función?</h2>
+<p>Con la extensión Checkstyle para Eclipse, su código es sometido a una inspección constante para identificar desviaciones respecto a las normas de codificación establecidas. Dentro del entorno de desarrollo de Eclipse, los problemas son notificados de inmediato a través de la Vista de Problemas de Eclipse y mediante anotaciones en el código fuente, semejantes a errores o advertencias del compilador.</p>
+<p>Este proceso asegura un ciclo de retroalimentación extremadamente breve, beneficiando a los desarrolladores con una pronta detección de posibles problemas.</p>
+<p><img alt="img-checkstyleFuncion" src="https://checkstyle.org/eclipse-cs/images/screenshots/eclipsecs0000.png" /></p>
+<h2 id="cuales-son-las-razones-para-emplearlo">¿Cuáles son las razones para emplearlo?</h2>
+<p>Si su equipo de desarrollo consta de más de un miembro, resulta evidente la necesidad de establecer un terreno común para los estándares de codificación, como reglas de formato y longitudes de línea, incluso si solo es por motivos prácticos para prevenir conflictos de fusión superficiales vinculados al formato.</p>
+<hr />
+<blockquote>
+<p><em>Checkstyle (y su extensión Eclipse Checkstyle) facilita la definición y aplicación sencilla de estas normas compartidas, contribuyendo a la coherencia y eficiencia en el proceso de desarrollo.</em></p>
+</blockquote></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.5.3
+Build Date UTC : 2024-03-07 12:33:20.388855+00:00
+-->
